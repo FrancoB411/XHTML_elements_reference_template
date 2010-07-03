@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="A Free HTML XHTML styleguide template with common HTML and XHTML elements. Use case 1: Attach stylesheets to this document to ensure you've styled all of a project's common elements. Use case 2: Leave a copy on the site's server for the next person to use as a 'look-book' or 'style-guide' for the site. Use case 3: Use it to copy and paste in common elements like forms and table data when creating markup for a site. Use case 4+: Whatever you find it useful for." />
+    <meta name="Keywords" content="html,XHTML,common elements,reference,stylesheet,template, css,programming,design,look-book,examples,source code,tags,workflow,tag list,forms,frames,color table,w3c,cascading style sheets,internet,database,development,Web building,Webmaster,html guide, Franco Barbeite, Temedigital" />
+    <title>
+      XHTML_elements_reference_stylesheet_template.
+    </title>
+    <link rel="stylesheet" type="text/css" href="yourstylesheet.css" />
+  </head>
+  <body>
+    <h1>
+      HTML Elements
+    </h1>
+    <h2>
+      Structure
+    </h2>
+    <hr />
+    <div>
+      div<span>span</span>div
+    </div>
+    <h1>
+      h1 text style
+    </h1>
+    <h2>
+      h2 text style
+    </h2>
+    <h3>
+      h3 text style
+    </h3>
+    <h4>
+      h4 text style
+    </h4>
+    <h5>
+      h5 text style
+    </h5>
+    <h6>
+      h6 text style
+    </h6>
+    <p>
+      paragraph text
+    </p>
+    <p>
+      line break<br />
+    </p>
+    <p>
+      horizontal rule
+    </p>
+    <hr />
+    <h2>
+      Links
+    </h2>
+    <hr />
+    <p>
+      <a href="#">This is a link</a><br />
+      <a href="mailto">This is an email link</a><br />
+      <a href="#name">Link to an anchor</a><br />
+      <a name="name" id="name">This is an anchor</a><br />
+    </p>
+    <h2>
+      Text
+    </h2>
+    <hr />
+    <p>
+      <strong>Strong text</strong><br />
+      <em>emphasis</em><br />
+    </p>
+    <blockquote>
+      <p>
+        This is a block quote
+      </p>
+    </blockquote>
+    <p>
+      <q>This is a short quotation</q><br />
+      <abbr title="abbreviation">Abbr.</abbr><br />
+      <acronym title="acronym">A.C.R.O.N.Y.M</acronym>
+    </p>
+    <pre>
+  ◊Pre-formatted Text:Sometimes you
+  want to display text "as is" and
+  don't want the browser to remove
+  the carriage returns. Or you may
+  have tabbed rows. In these cases
+  you can use the &lt;PRE&gt; tag.
+  
+</pre>
+    <p>
+      <code>code</code><br />
+      <del>deleted text</del><br />
+      Script<sub>subscript</sub><br />
+      Text-direction (right to left): <bdo dir="rtl">Text-direction (right to left):</bdo>
+    </p>
+    <h2>
+      Lists
+    </h2>
+    <hr />
+    <p>
+      ordered list
+    </p>
+    <ol>
+      <li>list item 1
+      </li>
+      <li>list item 2
+      </li>
+      <li>list item 3
+      </li>
+    </ol>
+    <p>
+      unordered list
+    </p>
+    <ul>
+      <li>list item 1
+      </li>
+      <li>list item 2
+      </li>
+      <li>list item 3
+      </li>
+    </ul>
+    <p>
+      definition list
+    </p>
+    <dl>
+      <dt>
+        Term1:
+      </dt>
+      <dd>
+        -This is a Definition
+      </dd>
+      <dt>
+        Term2:
+      </dt>
+      <dd>
+        -This is a Definition
+      </dd>
+      <dt>
+        Term3:
+      </dt>
+      <dd>
+        -This is a Definition
+      </dd>
+    </dl>
+    <h2>
+      Forms
+    </h2>
+    <hr />
+    <p>
+      This is a fieldset:
+    </p>
+    <fieldset>
+      <p>
+        A form:
+      </p>
+      <form action="http://somesite.com/prog/adduser" method="post">
+        <p>
+          <label for="firstname">label:</label><br />
+          <input type="text" id="firstname" /><br />
+          <label for="email">email:</label><br />
+          <input type="text" id="email" />
+        </p>
+        <hr />
+        <p>
+          Form in a table:
+        </p>
+        <table summary="form in a table">
+          <tr>
+            <td>
+              <label for="fname">first name</label>
+            </td>
+            <td>
+              <input type="text" name="firstname" id="fname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lname">last name</label>
+            </td>
+            <td>
+              <input type="text" name="lastname" id="lname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">email</label>
+            </td>
+            <td>
+              <input type="text" name="email" class="email" />
+            </td>
+          </tr>
+        </table>
+        <hr />
+        <p>
+          Radio buttons an check boxes:
+        </p>
+        <p>
+          <input type="radio" name="radio" value="radio" /> radio button<br />
+          <input type="checkbox" name="checkbox" value="check" /> checkbox<br />
+        </p>
+        <hr />
+        <p>
+          Dropdown menu:
+        </p>
+        <p>
+          <select name="comos">
+            <option label="dropdown" value="dropdown" selected="selected">
+              dropdwown
+            </option>
+            <optgroup label="portmaster 3">
+              <option label="3.7.1" value="pm3_3.7.1">
+                portmaster 3 with comos 3.7.1
+              </option>
+              <option label="3.7" value="pm3_3.7">
+                portmaster 3 with comos 3.7
+              </option>
+              <option label="3.5" value="pm3_3.5">
+                portmaster 3 with comos 3.5
+              </option>
+            </optgroup>
+            <optgroup label="portmaster 2">
+              <option label="3.7" value="pm2_3.7">
+                portmaster 2 with comos 3.7
+              </option>
+              <option label="3.5" value="pm2_3.5">
+                portmaster 2 with comos 3.5
+              </option>
+            </optgroup>
+            <optgroup label="irx">
+              <option label="3.7r" value="irx_3.7r">
+                irx with comos 3.7r
+              </option>
+              <option label="3.5r" value="irx_3.5r">
+                irx with comos 3.5r
+              </option>
+            </optgroup>
+          </select>
+        </p>
+        <hr />
+        <p>
+          Select menu:
+        </p>
+        <p>
+          <select size="4" name="component-select">
+            <option selected="selected">
+              component_1
+            </option>
+            <option value="component_1_b">
+              component_2
+            </option>
+            <option>
+              component_3
+            </option>
+            <option>
+              component_4
+            </option>
+            <option>
+              component_5
+            </option>
+            <option>
+              component_6
+            </option>
+            <option>
+              component_7
+            </option>
+          </select><br />
+        </p>
+        <hr />
+        <p>
+          Text area:
+        </p>
+        <p>
+          <textarea name="thetext" rows="20" cols="80">
+first line of initial text.
+second line of initial text.
+     
+</textarea><br />
+        </p>
+        <hr />
+        <p>
+          Buttons:
+        </p>
+        <p>
+          <button>button</button> <input type="submit" value="send" /> <input type="reset" />
+        </p>
+      </form>
+    </fieldset>
+    <h2>
+      Tables
+    </h2>
+    <hr />
+    <table border="1" summary="example table">
+      <caption>
+        Table Caption
+      </caption>
+      <thead>
+        <tr>
+          <th>
+            1 Span
+          </th>
+          <th>
+            Header 1
+          </th>
+          <th>
+            Header 2
+          </th>
+          <th>
+            Header 3
+          </th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>
+            footer
+          </th>
+          <td>
+            footer 1
+          </td>
+          <td>
+            footer 2
+          </td>
+          <td>
+            footer 3
+          </td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <th rowspan="2">
+            2 Span
+          </th>
+          <td>
+            Body 1
+          </td>
+          <td>
+            Body 2
+          </td>
+          <td>
+            Body 3
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Body 1
+          </td>
+          <td>
+            Body 2
+          </td>
+          <td>
+            Body 3
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>
+      Images
+    </h2>
+    <hr />
+    <div>
+      <p>
+        <a name="maptarget" id="maptarget">Map Target</a>
+      </p>
+      <p>
+        Image:
+      </p><img src="http://farm3.static.flickr.com/2038/2098067736_303ef2d205.jpg" alt="sample image" />
+      <p>
+        Image Map:
+      </p><img src="http://farm1.static.flickr.com/22/30611647_ec2c4b3491.jpg" alt="sample image map" usemap="#anchor_map" /> <map id="anchor_map" name="anchor_map">
+        <area shape="rect" coords="0,0,412,500" alt="Map" href="#maptarget" />
+      </map>
+    </div>
+    <h2>
+      Common Character Entities
+    </h2>
+    <hr />
+    <table border="1" summary="Common Character Elements">
+      <caption>
+        Common Elements
+      </caption>
+      <thead>
+        <tr>
+          <td>
+            <b>symbol</b>
+          </td>
+          <td>
+            <b>name</b>
+          </td>
+        </tr>
+      </thead>
+      <tr>
+        <td>
+          &amp;
+        </td>
+        <td>
+          ampersand
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &lt;
+        </td>
+        <td>
+          less than
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &gt;
+        </td>
+        <td>
+          greater than
+        </td>
+      </tr>
+      <tr>
+        <td>
+          &nbsp;
+        </td>
+        <td>
+          space
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¡
+        </td>
+        <td>
+          inverted exclamation mark
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¿
+        </td>
+        <td>
+          Spanish question mark
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ·
+        </td>
+        <td>
+          interpunct
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¢
+        </td>
+        <td>
+          cent
+        </td>
+      </tr>
+      <tr>
+        <td>
+          £
+        </td>
+        <td>
+          Pound
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¤
+        </td>
+        <td>
+          currency
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¥
+        </td>
+        <td>
+          Yen
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¦
+        </td>
+        <td>
+          broken vertical bar
+        </td>
+      </tr>
+      <tr>
+        <td>
+          §
+        </td>
+        <td>
+          sect
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¨
+        </td>
+        <td>
+          umla
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ©
+        </td>
+        <td>
+          coypright
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ®
+        </td>
+        <td>
+          registered
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ™
+        </td>
+        <td>
+          trademark
+        </td>
+      </tr>
+      <tr>
+        <td>
+          •
+        </td>
+        <td>
+          bullet
+        </td>
+      </tr>
+      <tr>
+        <td>
+          …
+        </td>
+        <td>
+          ellipses
+        </td>
+      </tr>
+      <tr>
+        <td>
+          †
+        </td>
+        <td>
+          dagger
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ‡
+        </td>
+        <td>
+          Dagger
+        </td>
+      </tr>
+      <tr>
+        <td>
+          °
+        </td>
+        <td>
+          degree sign
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ±
+        </td>
+        <td>
+          plus-or-minus
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¹
+        </td>
+        <td>
+          superscript 1
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ²
+        </td>
+        <td>
+          superscript 2
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ³
+        </td>
+        <td>
+          superscript 3
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ÷
+        </td>
+        <td>
+          division
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¼
+        </td>
+        <td>
+          fractions one fourth
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ½
+        </td>
+        <td>
+          fractions one half
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ¾
+        </td>
+        <td>
+          fractions three fourths
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
